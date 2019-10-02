@@ -7,6 +7,7 @@ now u need to expose ur laravel publid folder , so u should move it's content fr
 `public_html` , then go to `index.php` file and change this two line to adjust ne directories 
 
 `require __DIR__.'/../vendor/autoload.php';` to `require __DIR__.'/../project/vendor/autoload.php';`
+
 `$app = require_once __DIR__.'/../bootstrap/app.php';` to `$app = require_once __DIR__.'/../project/bootstrap/app.php';`
 
 enjoy :) 
